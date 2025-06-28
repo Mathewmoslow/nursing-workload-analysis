@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nursing-workload-analysis/static/css/main.653b142f.css",
+    "main.js": "/nursing-workload-analysis/static/js/main.641d80ce.js",
+    "index.html": "/nursing-workload-analysis/index.html",
+    "main.653b142f.css.map": "/nursing-workload-analysis/static/css/main.653b142f.css.map",
+    "main.641d80ce.js.map": "/nursing-workload-analysis/static/js/main.641d80ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.653b142f.css",
+    "static/js/main.641d80ce.js"
+  ]
+}
