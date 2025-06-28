@@ -31,7 +31,7 @@ function DataLoader({ onDataLoad }) {
   const loadSampleData = async () => {
     setLoading(true);
     try {
-      const response = await fetch('/data/Cleaned_Master.csv');
+      const response = await fetch(`${process.env.PUBLIC_URL}/data/Cleaned_Master.csv`);
       const text = await response.text();
       
       Papa.parse(text, {

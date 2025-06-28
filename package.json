@@ -2,7 +2,7 @@
   "name": "nursing-workload-analysis",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mathewmoslow.github.io/programanalysis",
+  "homepage": "https://mathewmoslow.github.io/nursing-workload-analysis",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     // Load parameters on mount
-    fetch('/parameters/parameters.json')
+    fetch(`${process.env.PUBLIC_URL}/parameters/parameters.json`)
       .then(res => res.json())
       .then(params => setParameters(params))
       .catch(err => console.error('Error loading parameters:', err));
